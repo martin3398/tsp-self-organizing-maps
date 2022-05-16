@@ -4,10 +4,11 @@ from os import path
 import matplotlib.pyplot as plt
 import numpy as np
 
-from som_tsp.config import output_dir
+from som_tsp.config import default_config as config
 
 
 def plot_map(name: str, instances: np.ndarray, nodes: np.ndarray, route: np.ndarray):
+    output_dir = config["output_dir"]
     if not path.exists(output_dir):
         os.makedirs(output_dir)
 
