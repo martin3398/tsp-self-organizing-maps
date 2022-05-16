@@ -13,7 +13,7 @@ python main.py example/example_instance_0100.json
 ```
 
 #### Output of ``example/example_instance_0100.json``:
-![example_instance_0100.json](out/example_map_0100.png)
+![example_instance_0100.ong](out/example_map_0100.png)
 
 ### Generate Random Examples
 ```
